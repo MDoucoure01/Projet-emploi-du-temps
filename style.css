@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteneur{
+    width: 80%;
+    height: 90%;
+    background-color: rgb(77, 71, 71);
+    border-radius: 0.5em;
+    box-shadow: 0 0 0.5em black;
+    display: flex;
+}
+.gauche{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(89, 85, 85);
+    border-radius: 0.5em 0 0 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    padding-top: 2em;
+}
+#RCHE{
+    width: 80%;
+    height: 5%;
+    border-radius: .5em;
+}
+.bloc{
+    width: 80%;
+    height: 25%;
+  
+    display: flex;
+    flex-direction: column;
+    gap: .4em;
+}
+.bloc1,.bloc2{
+    display: flex;
+    justify-content: space-between;
+}
+.bloc1{
+    height: 50%;
+    width: 100%;
+}
+.bloc2{
+    height: 50%;
+    width: 100%;
+}
+.BOX{
+    width: 49%;
+    height: 100%;
+    border-radius: .5em;
+}
+.enseignant,.salles,.classes,.modules{
+    background-color: gray;
+}
+.icone1,.icone2,.icone3,.icone4{
+    color: white;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.icone1{
+    background-color: blue;
+}
+.icone2{
+    background-color: green;
+}
+.icone3{
+    background-color: orange;
+}
+.icone4{
+    background-color: red;
+}
+#SELECTION{
+    width: 80%;
+    height: 5%;
+    border-radius: .5em;
+}
+.boxx{
+    display: flex;
+    justify-content: space-between;
+    padding: 8%;
+}
+span{
+    color: white;
+}
+.entete{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.entete1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.button{
+    width: 6%;
+    height: 15%;
+    background-color: white;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+}
+.sousBtn{
+    width: 30%;
+    height: 75%;
+    border-radius: 50%;
+    background-color: black;
+}
+.horaire{
+    width: 100%;
+    height: 5%;
+    background-color: gray;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+}
+.heure{
+    width: 80%;
+    margin-left: 20%;
+    display: flex;
+}
+.heure > span{
+    flex: 1;
+}
+h1{
+    color: white;
+}
+.planning{
+    width: 100%;
+    height: 75%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: .2em;
+}
+.planning > div{
+    flex: 1;
+}
+.jour1,.jour2,.jour3,.jour4,.jour5,.jour6{
+    display: flex;
+    position: relative;
+}
+.jour11,.jour21,.jour31,.jour41,.jour51,.jour61{
+    width: 20%;
+    height: 100%;
+    background-color: gray;
+    border-radius: 1em 0 0 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jour12,.jour22,.jour32,.jour42,.jour52,.jour62{
+    width: 80%;
+    height: 100%;
+    background-color: gray;
+    border-radius: 0 1em 1em 0;
+}
+.ajout{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+.modal{
+    width: 50%;
+    height: 50%;
+    
+}
+.btns,.nav{
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.milieu{
+    width: 100%;
+    height: 70%;
+    background-color: rgba(97, 92, 92, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.milieu > div{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#sel{
+    width: 20%;
+}
+.droite{
+    width: 70%;
+    height: 100%;
+    background-color: #141414;
+    border-radius: 0 0.5em 0.5em 0;
+}

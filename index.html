@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="ajout">
+        <div class="modal">
+            <div class="nav"><h3>Modal Title</h3></div>
+            <div class=milieu>
+                <div><label for=""><h3>Module</h3></label><select name="" id="sel" class="SEL"></select></div>
+                <div><label for=""><h3>enseignant</h3></label><select name="" id="sel" class="SEL"></select></div>
+                <div><label for=""><h3>Salle</h3></label><select name="" id="sel" class="SEL"></select></div>
+                <div><label for=""><h3>Heur de début</h3></label><select name="" id="sel" class="SEL"></select></div>
+                <div><label for=""><h3>Durée</h3></label><select name="" id="sel" class="SEL"></select></div>
+            </div>
+            <div class="btns">
+                <button class="NB">AJOUTER</button>
+                <button class="annule">ANNULER</button>
+            </div>
+        </div>
+    </div>
+    <div class="conteneur">
+        <div class="gauche">
+            <input type="text" name="rech" id="RCHE">
+            <div class="bloc">
+                <div class="bloc1">
+                    <div class="enseignant BOX">
+                        <div class="boxx">   
+                            <span class="fa-sharp fa-solid fa-person-chalkboard icone1"></span>
+                            <span>6</span>
+                        </div>
+                        <div class="boxx">
+                            <span>Enseign.</span>
+                            <span class="fa fa-plus"></span>
+                        </div>
+                    </div>
+                    <div class="salles BOX">
+                        <div class="boxx">   
+                            <span class="fa-sharp fa-solid fa-house-user icone2"></span>
+                            <span>6</span>
+                        </div>
+                        <div class="boxx">
+                            <span>Salles</span>
+                            <span class="fa fa-plus"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bloc2">
+                    <div class="classes BOX">
+                        <div class="boxx">   
+                            <span class="fa fa-users icone3"></span>
+                            <span>6</span>
+                        </div>
+                        <div class="boxx">
+                            <span>Classes</span>
+                            <span class="fa fa-plus"></span>
+                        </div>
+                    </div>
+                    <div class="modules BOX">
+                        <div class="boxx">   
+                            <span class="fa-solid fa-trash-can icone4"></span>
+                            <span>6</span>
+                        </div>
+                        <div class="boxx">
+                            <span>Modules</span>
+                            <span class="fa fa-plus"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <select name="slc" id="SELECTION"></select>
+        </div>
+        <div class="droite">
+            <div class="entete">
+                <div class="entete1">
+                    <div><h1>PLANNING:</h1></div>
+                    <div class="button">
+                        <div class="sousBtn"></div>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+            <div class="horaire">
+                <div class="heure">
+                    <span>8H</span>
+                    <span>9H</span>
+                    <span>10H</span>
+                    <span>11H</span>
+                    <span>12H</span>
+                    <span>13H</span>
+                    <span>14H</span>
+                    <span>15H</span>
+                    <span>16H</span>
+                    <span>17H</span>
+                </div>
+            </div>
+            <div class="planning">
+                <div class="jour1">
+                    <div class="jour11">
+                        <span>LUNDI</span>
+                        <span class="fa fa-plus PLUS"></span>
+                    </div>
+                    <div class="jour12"></div>
+                </div>
+                <div class="jour2">
+                    <div class="jour21">
+                        <span>MARDI</span>
+                        <span class="fa fa-plus PLUS"></span>
+                    </div>
+                    <div class="jour22"></div>
+                </div>
+                <div class="jour3">
+                    <div class="jour31">
+                        <span>MERCREDI</span>
+                        <span class="fa fa-plus PLUS"></span>
+                    </div>
+                    <div class="jour32"></div>
+                </div>
+                <div class="jour4">
+                    <div class="jour41">
+                        <span>JEUDI</span>
+                        <span class="fa fa-plus PLUS"></span>
+                    </div>
+                    <div class="jour42"></div>
+                </div>
+                <div class="jour5">
+                    <div class="jour51">
+                        <span>VENDREDI</span>
+                        <span class="fa fa-plus PLUS"></span>
+                    </div>
+                    <div class="jour52"></div>
+                </div>
+                <div class="jour6">
+                    <div class="jour61">
+                        <span>SAMEDI</span>
+                        <span class="fa fa-plus PLUS"></span>
+                    </div>
+                    <div class="jour62"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
